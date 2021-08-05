@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "t-osprey-244101",
+  "private_key_id": "7f184f886f1d036847bf76e7a743b2c58b7dd6f9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5g8FPWVKcb3T4\nwDu0dsrIpteMb6VzoqsYTBlON9VLPAAuQ8W83sKdQG/kHrkJcBJ522CmNUk7dApc\njqGFaDQN3+gsqioMIa+EyxUXJ8M9iBwZ9dQdQ6xm2XqVv+5lUFxiagev08tU9FBU\nGBP95IvAYWbdM6ERrzxpYM/DKaJaKaRD67NNyOAwj/TWzgJ18T7fv8CwESRzMxPc\nGUtyg6ZRVPEcIQMaNN33455eAhgEzQFbAVcecVVQhXLuFS9BcQmVQBhYqF/f70Rb\nI/u7IrBhicGFDWoibYJmoYKOscTqIxcr5+XKH9Q4rGSBIZ966RR4RHBW+BS2iYJu\nWVtpFvlxAgMBAAECggEANR3M4RfNp/3fq4N69NJYgHgI2mxzHndSbrwHONaSqx5s\nXNLJ0KilZ1n2T4Yea93bZGmUNDKom62/c73g8G4kDV7xPqygKmYQt8Bf8wfPBpSs\nmyBAUfq455/YUf0o2HhYY1NBjS3il5n2UAWu37Cq9PPOfIJWWVZnwTJXemU214J8\n94nkdRzn19tUWuICNq7ZGx0v0w/uIyZ7wzof3wr4r7XiSc3HPAlLE029vdcOBa8m\nHlskLv/vbkNHkA3CCvg41wNPelo7h3sLK5oxCKq7cVafJaAIKC9U2QIIRpOAEygK\n/LwLZYlsONQKc6wWK1xOZlbpIgz4qVY8SD3Va9rdgwKBgQDdKvUeYpM42pvOwoBg\n5mvA6BEwAg7leCGhScGJkAYxIvmngGGD0OE5Fg0CPCpmEx9xxPrDhDWyKd9zwt5T\n3CBVGx9lVnhKijlZ5cb9w5nGvJ/Y8iU9C/A2uHmD3T1inAoT5lG2VPp9RXLWUXwF\ntwLlXPm0UAXZin+M2THr4kjwFwKBgQDWu1Wvg+wEb/YYxlKtd9myvQHSMh879S+8\nV5W6dfUBng5QocG77l6zNK4HYINyKug4gQvekw/ixziavx4+fmvSlx3ZGNM9LrYz\nRlojjEPKPo7PGzImd9gwsnLSWkfBo4G52zFng8J+gQD9FdyK070fXGCeLWBjC7F6\nN9Q54W4PtwKBgQCIKZZXaqDw88XQ+XZIMhRM45MRV3MMW3V48wuwQXdOcRX6xdND\ncCn5F1ZS9e+0gDlvtbIdBRx538WuY161imRtgRFHNoFAgvDkI87rFK1r6V0QF6RN\nfTgauGA3itHsD900eyv7cT32OfeFcw1EB3RE+YTSOiIf2GDGukE91EbLaQKBgF0H\nkkrVI6aUfxEisuUWfIl0W1qefmuygPjfFS5QNlJ6EIecXNu3nO2U0CTACpKmxi7c\nsbC/E+3TE9HvJQI8MShuce8BU1s5ZpR2UUz/UstHKQXPKX4DA/WtChPaKyZYWTaV\nISVQry2xZCVBmGfI7jGtCurci9q9USm7EEX3RYCnAoGAOxrWE8T0wQvUiujyxlcc\nBOq62Zt/CcRm0JmRmkTw6ISeVqYybiPcZnJBtdHu3XsXQt/zpB1s+Ff8vzncJWFL\nc2ReeiJF6Ar+4lo4/dF6YAlnMfRDGNa2mspn4lffT/x0kirsZThMZJCRzQhkUjs2\nvgYFcqRAYkOis2kgT7IO7KQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ansible@t-osprey-244101.iam.gserviceaccount.com",
+  "client_id": "114901559212012294712",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ansible%40t-osprey-244101.iam.gserviceaccount.com"
+}

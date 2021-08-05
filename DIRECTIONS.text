@@ -1,0 +1,47 @@
+WORDPRESS SETUP
+FROM: https://github.com/AdnanHodzic/containerized-wordpress-project
+
+
+TO SET UP GCLOUD WITH ANSIBLE
+FROM: https://alex.dzyoba.com/blog/gcp-ansible-service-account/
+
+STEP 1:
+  for role in \
+      'roles/compute.instanceAdmin' \
+      'roles/compute.instanceAdmin.v1' \
+      'roles/compute.osAdminLogin' \
+      'roles/iam.serviceAccountUser'
+  do \
+      gcloud projects add-iam-policy-binding \
+          t-osprey-244101 \
+          --member='serviceAccount:ansible@t-osprey-244101.iam.gserviceaccount.com' \
+          --role="${role}"
+  done
+
+STEP 2:
+  gcloud iam service-accounts keys create \
+      .gcp/gcp-key-ansible-sa.json \
+      --iam-account=ansible@t-osprey-244101.iam.gserviceaccount.com
+
+STEP 3:
+  ssh-keygen -f ssh-key-ansible-sa
+
+STEP 4:
+  gcloud auth activate-service-account \
+      --key-file=.gcp/gcp-key-ansible-sa.json
+
+STEP 5:
+  gcloud compute os-login ssh-keys add \
+      --key-file=ssh-key-ansible-sa.pub
+
+STEP 6:
+  gcloud config set account david@mobius.digital
+
+STEP 7:
+  gcloud iam service-accounts describe \
+      ansible@t-osprey-244101.iam.gserviceaccount.com \
+      --format='value(uniqueId)'
+  114901559212012294712
+
+STEP 8:
+  ssh -i .ssh/ssh-key-ansible-sa sa_114901559212012294712@10.128.0.29
